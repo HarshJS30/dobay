@@ -1,0 +1,93 @@
+*{
+  overflow-x: hidden;  
+  background-color: #eeeeee;
+}
+.hero{
+    width: 100%;
+    height: 90vh;
+    font-family: 'Inter', sans-serif;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar{
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 45%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.15);
+}
+.navbar a{
+    font-weight: 550;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+.contents{
+    background-color: transparent;
+    height: 95vh;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.heading h2{
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+.heading span{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #1b7564;
+    font-weight: 300;
+}
+.subheading{
+    color: #4B5563;
+    position: relative;
+    top: -3.5rem;
+}
+.subheading h4{
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+.buttons{
+    position: relative;
+    top: -2.5rem;
+}
+.cta1{
+    width: 13rem;
+    background-color: #1b7564;
+    color: #fff;
+    border: none;
+    height: 3rem;
+    font-size: 17px;
+    border-radius: 25px;
+    font-weight: 400;
+    padding: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    margin-right: 1rem;
+}
+.cta2{
+    width: 9rem;
+    padding: 0.5rem;
+    background-color: none;
+    color: #000;
+    border: 1px solid #4B5563;
+    height: 3rem;
+    font-size: 17px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.box2 img{
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.4s);
+}
