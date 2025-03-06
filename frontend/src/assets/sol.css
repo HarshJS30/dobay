@@ -1,0 +1,76 @@
+.sol{
+    width: 85%;
+    height: 85vh;
+    background-color: #fff;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 50px;
+    padding: 2rem;
+    display: flex;
+}
+.all h1{
+    font-family: 'Inter',serif;
+    font-size: 48px;
+    margin-left: 39%;
+}
+.all span{
+    color: #1b7564;
+    font-family: 'Lora',serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.expandable-panels {
+    width: 50%;
+    height: 95%;
+    background-color: transparent !important;
+    overflow: hidden;
+}
+
+.panel {
+    border-bottom: 0.1px solid #4B5563;
+    padding: 20px;
+    background-color: transparent !important;
+}
+
+.panel-header {
+    cursor: pointer;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 27.5px;
+    background-color: transparent !important;
+}
+.panel-header span{
+    margin-right: 5px;
+    background-color: transparent !important;
+    color: #4B5563;
+}
+
+.panel-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent !important;
+}
+.con{
+    background-color: transparent !important;
+    color: #4B5563;
+}
+
+.panel-content.open {
+    max-height: 150px; 
+}
+.solmg{
+    background-color:  transparent !important;
+    overflow: hidden;
+}
+.sol img{
+    background-color: #b4ff8b;
+    margin-left: 2rem;
+    border: 10px solid #0f4037;
+    border-radius: 50px;
+    z-index: 10000;
+}
