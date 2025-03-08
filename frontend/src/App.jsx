@@ -3,6 +3,8 @@ import { Hero } from "./Components/HeroPage";
 import ExpandablePanels from "./Components/Solution";
 import { WhyPage } from "./Components/WhyPage";
 import { Us } from "./Components/UsPage";
+import Testimonials from "./Components/Testimonials";
+import { Contact } from "./Components/Contact";
 function App(){
   return(
     <>
@@ -10,6 +12,8 @@ function App(){
       <ExpandablePanels />
       <WhyPage />
       <Us />
+      <Testimonials />
+      <Contact />
     </>
   )
 }

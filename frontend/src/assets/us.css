@@ -61,3 +61,94 @@
 .imgg img{
     width: 20rem;
 }
+.contacts{
+    width: 96%;
+    margin-left: 2rem;
+    height: 95vh;
+    background-color: #0f4037;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact, .contact h1, .contact p{
+    background-color: transparent;
+    color: #fff;
+}
+.contact{
+    background-color: #b4ff8b;
+    width: 97.5%;
+    height: 94%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact h1{
+    color: #0f4037;
+    font-family: 'Inter',sans-serif;
+    font-size: 75px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+.contact span{
+    font-family: 'Lora',sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color: transparent;
+    position: relative;
+    left: 15px;
+}
+.contact p{
+    color: #00000080;
+    font-family: 'Inter',sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    position: relative;
+    top: -90px;
+    left: 30px;
+}
+.contactons{
+    background-color: transparent;
+    position: relative;
+    top: -90px;
+    left: 30px;
+}
+.contactons button{
+    width: 13rem;
+    font-family: 'Inter',sans-serif;
+    background-color: transparent;
+    font-size: 17px;
+    height: 3rem;
+    border-radius: 25px;
+    color: #0f4037;
+    border: 1px solid #00000080;
+}
+.free{
+    margin-right: 1rem;
+    background-color: #ff6f61 !important;
+    color: #fff !important;
+}
+.sch{
+    width: 19rem;
+    font-family: 'Inter',sans-serif;
+    background-color: transparent;
+    font-size: 17px;
+    height: 3rem;
+    border-radius: 25px;
+    color: #0f4037;
+    border: 1px solid #00000080;
+    position: relative;
+    top: -70px;
+    left: 80px;
+}
+.info{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact img{
+    background-color: transparent
+}

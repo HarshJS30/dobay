@@ -58,3 +58,51 @@
     color: #4B5563;
     font-weight: 350;
 }
+.carousel-container {
+  width: 96%;
+  height: 105vh;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  overflow: hidden;
+}
+
+.carousel-container .slick-slide {
+  padding: 0 20px;
+  overflow: hidden;
+}
+.carousel-container span{
+    font-family: 'Lora',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #1b7564;
+}
+.carousel-container h2{
+    font-family: 'Inter',sans-serif;
+    font-size: 60px;
+    position: relative;
+    left: 37%;
+}
+.carousel-item {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27rem;
+  font-size: 20px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black),  
+              url("../assets/good.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.yt{
+    position: relative;
+    top: 56%;
+    height: 40%;
+    width: 95%;
+    left: 0.2rem;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid #ffffff5a;
+    padding: 5px;
+}
