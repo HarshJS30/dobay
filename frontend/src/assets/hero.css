@@ -1,0 +1,252 @@
+* {
+  overflow-x: hidden;  
+  background-color: #eeeeee;
+}
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    font-family: 'Inter', sans-serif;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.15);
+}
+
+.navbar a {
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    background-color: transparent;
+    transition: color 0.3s ease, transform 0.3s ease; /* Added for smooth hover transition */
+}
+
+.navbar a:hover {
+    color: #1b7564; /* Matches the span color for consistency */
+    transform: scale(1.1); /* Slight scale-up effect on hover */
+}
+
+.contents {
+    background-color: transparent;
+    height: 95vh;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading h2 {
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.heading span {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #1b7564;
+    font-weight: 300;
+}
+
+.subheading {
+    color: #4B5563;
+    position: relative;
+    top: -3.5rem;
+}
+
+.subheading h4 {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.buttons {
+    position: relative;
+    top: -2.5rem;
+}
+
+.cta1 {
+    width: 13rem;
+    background-color: #1b7564;
+    color: #fff;
+    border: none;
+    height: 3rem;
+    font-size: 17px;
+    border-radius: 25px;
+    font-weight: 400;
+    padding: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    margin-right: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added for smooth hover transition */
+}
+
+.cta1:hover {
+    background-color: #145c4e; /* Slightly darker shade for hover */
+}
+
+.cta2 {
+    width: 9rem;
+    padding: 0.5rem;
+    background-color: none;
+    color: #000;
+    border: 1px solid #4B5563;
+    height: 3rem;
+    font-size: 17px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Added for smooth hover transition */
+}
+
+.cta2:hover {
+    background-color: #4B5563; /* Fill with border color on hover */
+    color: #fff; /* White text for contrast */
+}
+
+.box2 img {
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added for smooth hover transition */
+}
+
+.box2 img:hover {
+    transform: scale(1.05); /* Slight scale-up effect on hover */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .hero {
+        height: auto; /* Adjust height to fit content */
+        padding: 1rem;
+    }
+
+    .navbar {
+        width: 80%; /* Wider navbar for better spacing */
+        height: 2rem;
+    }
+
+    .navbar a {
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    .contents {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Adjust height to fit content */
+        margin-top: 1rem;
+    }
+
+    .heading h2 {
+        font-size: 2.8rem; /* Smaller heading */
+        text-align: center;
+    }
+
+    .subheading {
+        top: -2rem; /* Adjust positioning */
+        text-align: center;
+    }
+
+    .subheading h4 {
+        font-size: 1rem; /* Smaller subheading */
+    }
+
+    .buttons {
+        top: -1.5rem; /* Adjust positioning */
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .cta1 {
+        width: 10rem; /* Smaller button width */
+        height: 2.5rem;
+        font-size: 15px;
+        margin-right: 0;
+    }
+
+    .cta2 {
+        width: 8rem; /* Smaller button width */
+        height: 2.5rem;
+        font-size: 15px;
+    }
+
+    .box2 img {
+        height: 300px; /* Smaller image */
+        width: 90%;
+        margin-left: 0; /* Remove large margin */
+        margin-top: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile Phones (480px and below) */
+@media (max-width: 480px) {
+    .hero {
+        padding: 0.5rem;
+    }
+
+    .navbar {
+        width: 90%; /* Almost full width */
+        height: 1.8rem;
+        padding: 0.3rem;
+    }
+
+    .navbar a {
+        font-size: 0.8rem; /* Even smaller font */
+    }
+
+    .heading h2 {
+        font-size: 2rem; /* Smaller heading */
+    }
+
+    .subheading {
+        top: -1.5rem; /* Adjust positioning */
+    }
+
+    .subheading h4 {
+        font-size: 0.9rem; /* Smaller subheading */
+    }
+
+    .buttons {
+        top: -1rem; /* Adjust positioning */
+        gap: 0.3rem;
+    }
+
+    .cta1 {
+        width: 8rem; /* Smaller button */
+        height: 2rem;
+        font-size: 14px;
+    }
+
+    .cta2 {
+        width: 6rem; /* Smaller button */
+        height: 2rem;
+        font-size: 14px;
+    }
+
+    .box2 img {
+        height: 200px; /* Smaller image */
+        width: 90%;
+        margin-top: 0.5rem;
+    }
+}

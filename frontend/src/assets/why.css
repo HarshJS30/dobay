@@ -1,0 +1,221 @@
+.why {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: relative;
+    top: -2rem;
+}
+
+.one1, .two2, .three3 {
+    width: 33%;
+    height: 90%;
+    background-color: transparent;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.why img {
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.working {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.working h2 {
+    font-family: 'Inter', serif;
+    font-size: 60px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.working h2:hover {
+    color: #1b7564;
+}
+
+.working span {
+    color: #1b7564;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.why .number {
+    padding: 10px;
+    font-weight: bold;
+    width: fit-content;
+    background-color: #F44336;
+    color: #fff;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.why .number:hover {
+    background-color: #d32f2f;
+}
+
+.content p {
+    color: #4B5563;
+    font-weight: 350;
+}
+
+.carousel-container {
+    width: 96%;
+    height: 105vh;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    overflow: hidden;
+}
+
+.carousel-container .slick-slide {
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.carousel-container span {
+    font-family: 'Lora', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #1b7564;
+}
+
+.carousel-container h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    position: relative;
+    left: 37%;
+    transition: color 0.3s ease;
+}
+
+.carousel-container h2:hover {
+    color: #145c4e;
+}
+
+.carousel-item {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27rem;
+    font-size: 20px;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black),  
+                url("../assets/videos/sampel.mp4");
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.yt {
+    position: relative;
+    height: 43%;
+    width: 95%;
+    left: 0.2rem;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid #ffffff5a;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .why {
+        flex-direction: column;
+        height: auto;
+        top: 0;
+    }
+
+    .one1, .two2, .three3 {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .why img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .working h2 {
+        font-size: 40px;
+    }
+
+    .content {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .carousel-container {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .carousel-container h2 {
+        font-size: 40px;
+        left: 0;
+        text-align: center;
+    }
+
+    .carousel-item {
+        height: 20rem;
+    }
+
+    .yt {
+        height: 35%;
+        width: 90%;
+        left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .why img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .working h2 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .carousel-container h2 {
+        font-size: 30px;
+    }
+
+    .carousel-item {
+        height: 15rem;
+        font-size: 16px;
+    }
+
+    .yt {
+        height: 30%;
+        width: 85%;
+    }
+}
