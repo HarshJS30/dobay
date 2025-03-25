@@ -1,12 +1,13 @@
 .sol {
     width: 85%;
     height: 85vh;
-    background-color: #fff;
+    background-color: #000;
     margin-left: 5rem;
     margin-bottom: 3rem;
     border-radius: 50px;
     padding: 2rem;
     display: flex;
+    color: #fff;
 }
 
 .all h1 {
@@ -17,7 +18,7 @@
 }
 
 .all span {
-    color: #1b7564;
+    color: #888;
     font-family: 'Lora', serif;
     font-style: italic;
     font-weight: 400;
@@ -31,7 +32,7 @@
 }
 
 .panel {
-    border-bottom: 0.1px solid #4B5563;
+    border-bottom: 0.1px solid #444;
     padding: 20px;
     background-color: transparent !important;
 }
@@ -46,18 +47,18 @@
 }
 
 .panel-header:hover {
-    color: #1b7564;
+    color: #666;
 }
 
 .panel-header span {
     margin-right: 5px;
     background-color: transparent !important;
-    color: #4B5563;
+    color: #aaa;
     transition: color 0.3s ease;
 }
 
 .panel-header span:hover {
-    color: #1b7564;
+    color: #666;
 }
 
 .panel-content {
@@ -73,7 +74,7 @@
 
 .con {
     background-color: transparent !important;
-    color: #4B5563;
+    color: #aaa;
 }
 
 .panel-content.open {
@@ -86,15 +87,14 @@
 }
 
 .sol img {
-    background-color: #b4ff8b;
+    background-color: #333;
     margin-left: 2rem;
-    border: 10px solid #0f4037;
+    border: 10px solid #555;
     border-radius: 50px;
     z-index: 10000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
  
-
 @media (max-width: 768px) {
     .sol {
         width: 90%;
